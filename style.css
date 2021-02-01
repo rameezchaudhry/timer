@@ -1,0 +1,88 @@
+body
+{
+    background: skyblue;
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 10%;
+}
+h1{
+    text-align: center;
+    color:seashell;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+div
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+
+}
+div input{
+    
+    width: 200px;
+    height: 200px;
+    font-size: 90pt;
+    margin-left: 5px;
+    border-radius:6% ;
+    outline: none;
+    background-color: black;
+    color:whitesmoke;
+    font-family: fantasy;
+    font-style: normal;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    
+}
+div button{
+    padding: 20px;
+    border-radius:50% ;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    margin: 20px;
+    color: white;
+    border-color: rgb(255, 255, 255);
+    
+    
+}
+#min{
+    background-image: url(image/Min.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position-x:150px ;
+    background-position-y:10px ;
+}
+#sec{
+    background-image: url(image/Second.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position-x:150px ;
+    background-position-y:10px ;
+}
+#mili{
+    background-image: url(image/Mili.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position-x:150px ;
+    background-position-y:10px ;
+}
+#start
+{
+    background-color:rgb(0, 119, 255);
+}
+#pause
+{
+    background-color:orangered;
+}
+#reset
+{
+    background-color:red;
+}
